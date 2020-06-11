@@ -1,15 +1,16 @@
 #include <stdio.h>
 /**
- *main - Entry poin
+ *main - prints the size of some types of variables
  *
- *return: Always 0 (Success)
+ *Return: 0 (Sucess)
  */
 int main(void)
 {
-printf("size of a char: %i bytes(s)\n", (int) sizeof(char));
-printf("size of an int: %i bytes(s)\n", (int) sizeof(int));
-printf("size of a long int: %i bytes(s)\n", (int) sizeof(long int));
-printf("size of a long long int: %i bytes(s)\n", (int) sizeof(long long int));
-printf("Size of a float: %i byte(s)\n", (int) sizeof(float));
-return (0);
+  printf("Size of a char: %i byte(s)\n", (int) sizeof(char));
+  printf("Size of an int: %i byte(s)\n", (int) sizeof(int));
+  printf("Size of a long int: %i byte(s)\n", (int) sizeof(long int));
+  printf("Size of a long long int: %i byte(s)\n", (int) sizeof(long long
+							       int));
+  printf("Size of a float: %i byte(s)\n", (int) sizeof(float));
+  return (0);
 }
