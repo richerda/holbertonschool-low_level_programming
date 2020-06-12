@@ -2,25 +2,19 @@
 /**
  *main - entry
  *
- *Definition: program print alphabet in lowercase and uppercase
+ *Definition: program that prints the alphabet in lowercase and then
+ *in uppercase
  *
- *Return: 0
+ *Return: 0 (success)
  */
 int main(void)
 {
+  char c;
 
-char a = 'a';
-char b = 'A';
-while (a <= 'z')
-{
-putchar(a);
- a++;
-}
-while (b <= 'Z')
-{
-putchar(b);
- a++;
-}
-putchar('\n');
-return (0);
+  for (c = 97; c <= 122; ++c)
+    putchar(c);
+  for (c = 65; c <= 90; ++c)
+    putchar(c);
+  putchar('\n');
+  return (0);
 }
