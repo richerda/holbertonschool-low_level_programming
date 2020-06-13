@@ -18,8 +18,8 @@ putchar(n1);
 putchar(n2);
 if (n1 && n2 != 57)
 {
-putchar(',');
-putchar(' ');
+putchar(44);
+putchar(32);
 }
 else
 {
