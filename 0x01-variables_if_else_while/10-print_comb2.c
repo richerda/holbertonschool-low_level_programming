@@ -21,9 +21,6 @@ if (n1 && n2 != 57)
 putchar(44);
 putchar(32);
 }
-else
-{
-}
 }
 }
 putchar('\n');
