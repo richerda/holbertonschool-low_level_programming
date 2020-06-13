@@ -8,14 +8,15 @@
  */
 int main(void)
 {
-  int n1, n2;
-for (n1 = 48; n1 <= 57; n1++)
+int a;
+int b;
+for (a = 48; a <= 57; a++)
 {
-for (n2 = 48; n2 <= 57; n2++)
+for (b = 48; b <= 57; b++)
 {
-putchar(n1);
-putchar(n2);
-if (n1 && n2 != 57)
+putchar(a);
+putchar(b);
+if (a && b != 57)
 {
 putchar(44);
 putchar(32);
